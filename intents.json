@@ -25,11 +25,11 @@
         "Have a nice day",
         "Bye! Come back again soon."
       ]
-    },
+    },    
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "ok", "nice"],
+      "responses": ["Happy to help you!", "Thank-you", "My pleasure"]
     },
     {
       "tag": "items",

@@ -1,7 +1,4 @@
-import random
-import json
-
-import torch
+import random, json, torch
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
@@ -45,7 +42,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I do not understand..."
+    return "I do not understand... Please rephrase your query"
 
 
 if __name__ == "__main__":
